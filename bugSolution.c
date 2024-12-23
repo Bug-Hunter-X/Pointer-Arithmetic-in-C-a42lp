@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = &x; int y = *ptr; y = 20; printf("%d\n", x); // x is still 10 printf("%d\n", y); // y is 20 return 0; }
